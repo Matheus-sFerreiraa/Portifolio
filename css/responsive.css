@@ -1,0 +1,207 @@
+
+
+@media screen and (max-width: 915px){
+    .header .header-nav, .header a, header.rolar{
+        display: none;
+    }
+
+    /* section hero*/
+
+    .hero .interface .hero-text h1{
+        font-size: 2.5rem;
+    }
+
+    .hero .interface .hero-text h1 span{
+        font-size: 2.5rem;
+        line-height: 30px;
+    }
+
+    .hero .interface .hero-text p{
+        font-size: 0.9rem;
+        margin: 15px 0;
+    }
+
+    .hero .interface .hero-text .btn-contact{
+        font-size: 0.8rem;
+    }
+
+    /* section advantages*/
+    .advantages .interface article .text-advantages h1{
+        font-size: 1.4rem;
+        margin-bottom: 8px;
+    }
+
+    .advantages .interface .text-advantages p{
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+    }
+
+    .advantages .interface div img{
+        width: 300px;
+    }
+
+    /* section our team*/
+
+    .our-team .interface .speak-now{
+        flex-direction: column;
+        height: 450px;
+    }
+
+    .our-team .interface .speak-now .speak-now-text h1{
+        margin-top: 25px;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .our-team .interface .speak-now .speak-now-text p{
+        font-size: 0.8rem;
+    }
+
+    .our-team .interface .speak-now .contacts ul li a{
+        font-size: 0.8rem;
+        padding: 15px;
+        width: 300px;
+    }
+
+    .our-team .interface .speak-now .contacts ul li img{
+        width: 20px;
+    }
+
+    /* section how to works */
+
+    .how-works{
+        height: 500px;
+    }
+
+    .how-works .interface{
+        display: block;
+        margin-top: 40px;
+        text-align: center;
+        
+        .how-text{
+            margin-bottom: 20px;
+        }
+    }
+
+    
+
+    .how-works .interface .how{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .how-works .interface .how div{
+        width: 400px;
+        gap: 50px;
+        margin: 5px 0;
+
+        h1{
+            font-size: 1rem;
+            text-align: left;
+            line-height: 15px;
+            margin-bottom: 10px;
+        }
+
+        p{
+            font-size: 0.6rem;
+            text-align: left;
+        }
+
+        img{
+            width: 60px;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 670px){
+      .advantages .interface article .text-advantages h1{
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    .advantages .interface .text-advantages p{
+        font-size: 0.5rem;
+        margin-bottom: 20px;
+    }
+
+    .advantages .interface div img{
+        width: 180px;
+    } 
+
+    .advantages .interface article .text-advantages{
+    margin-right: 20px;
+    }
+
+    .advantages .interface article #text-advantages{
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    /* section how to works */
+
+    
+
+    
+
+    .how-works .interface .how div{
+        width: 320px;
+        gap: 20px;
+
+        h1{
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        p{
+            font-size: 0.6rem;
+            text-align: left;
+        }
+
+        img{
+            width: 60px;
+        }
+    }
+
+    /*footer*/
+
+    footer{
+        height: 200px;
+    }
+
+    footer nav ul li a{
+    font-size: 0.8rem;
+    }
+
+    footer nav ul li{
+    padding: 20px;
+    }
+
+    footer article{
+    font-size: 0.8rem;
+    width: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 330px){
+    .how-works .interface .how div{
+        width: 280px;
+        gap: 20px;
+
+        h1{
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        p{
+            font-size: 0.5rem;
+        }
+
+        img{
+            width: 45px;
+        }
+    }
+}

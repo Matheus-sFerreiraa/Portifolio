@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: lightgray;
+}
+
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    transition: 0.6s;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: transparent;
+    
+}
+
+.header img{
+    width: 40px;
+}
+
+
+
+.header img.logo-preta{
+    display: none;   
+}
+
+/*estilo do menu dinâmico*/
+
+header.rolar{
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: 0px 0px 20px black;
+    z-index: 3;
+}
+
+header.rolar .header-nav ul li a{
+    color: black;
+
+}
+
+header.rolar .header{
+    height: 50px;
+}
+
+header.rolar .btn-contact{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+header.rolar .btn-contact:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+
+header.rolar .header .logo-branca{
+    display: none;
+}
+
+header.rolar .header .logo-preta{
+    display: block;
+}
+
+/*----------------------*/
+
+.header .header-nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .header-nav ul li{
+    padding: 0px 40px;
+    transition: 0.2s;
+}
+
+.header .header-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.header .header-nav ul li:hover{
+    transform: scale(1.08);
+}
+
+.btn-contact{
+    background-color: transparent;
+    padding: 18px 30px;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.btn-contact:hover{
+    background-color: black;
+
+}
+
+/*section hero*/
+
+.hero{
+    height: 97vh;
+    background-image: url(../images/bg-inicio-site.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 5px 20px black;
+    
+    
+}
+
+.hero .interface {
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100%;
+    
+}
+
+.hero .interface .hero-text h1{
+    font-weight: 300;
+    font-size: 4rem;
+}
+
+.hero .interface .hero-text h1 span{
+    display: block;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 46px;
+    margin-bottom: 40px;
+}
+
+.hero .interface .hero-text p{
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+/* section Vantagens*/
+
+.advantages{
+    margin: 80px 0px;
+    
+    
+}
+
+.advantages .interface article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.advantages .interface article .text-advantages{
+    margin-right: 60px;
+}
+
+.advantages .interface article #text-advantages{
+    margin-right: 0;
+    margin-left: 60px;
+}
+
+.advantages .interface article .text-advantages h1{
+    margin-bottom: 20px;
+}
+
+.advantages .interface article .text-advantages h1 span{
+    font-weight: 400;
+}
+
+.advantages .interface article img{
+     width: 400px;
+}
+
+/* section our team*/
+
+
+
+.our-team{
+    background-color: white;
+    box-shadow: -10px -5px 20px rgba(0, 0, 0, 0.459);
+}
+
+.our-team .interface .speak-now{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+}
+
+.our-team .interface .speak-now .speak-now-text h1{
+    font-weight: 300;
+}
+
+.our-team .interface .speak-now .speak-now-text h1 span{
+    display: block;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+.our-team .interface .speak-now .speak-now-text p{
+    margin-top: 20px;
+}
+
+.our-team .interface .speak-now .contacts ul{
+    list-style: none;
+    margin: 30px;
+}
+
+
+.our-team .interface .speak-now .contacts ul li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    padding: 20px;
+    border: 1px solid black;
+    width: 400px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    transition: 0.4s;
+}
+
+.our-team .interface .speak-now .contacts ul li a:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.our-team .interface .speak-now .contacts ul li img{
+    width: 30px;
+}
+
+/* section Hospedagem */
+
+.hosting{
+    background-image: url(../images/hotel-bg.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    box-shadow: 0px 7px 20px black;
+
+}
+
+
+
+.hosting .interface .hosting-text h1{
+    font-weight: 300;
+}
+
+.hosting .interface .hosting-text h1 span{
+    display: block;
+    font-weight: 800;
+
+}
+
+.hosting .interface .hosting-text p{
+    margin: 30px 0px 60px 0px;
+}
+
+
+.hosting .interface .hosting-text a{
+    text-decoration: none;
+}
+
+.hosting > .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hosting > .interface {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.hosting .interface .hosting-text .btn-hosting{
+    background-color: transparent;
+    padding: 18px 30px;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.hosting .interface .hosting-text .btn-hosting:hover{
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+    
+}
+
+/*section Como funciona*/
+
+.how-works .interface{
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.how-works .interface .how{
+    display: block;
+    justify-content: center;
+}
+
+.how-works .interface .how div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 20px;
+    font-size: 80%;
+    width: 600px;
+    gap: 40px;
+    border: 1px solid black;
+}
+
+
+.how-works .interface .how-text h1{
+    font-weight: 300;
+    line-height: 33px;
+}
+
+.how-works .interface .how-text h1 span{
+    display: block;
+    font-weight: 800;
+}
+
+.how-works .interface .how div img {
+    width: 80px;
+}
+
+.how-works .interface .how div h1{
+    margin-bottom: 15px;
+}
+
+.how-works .interface .how div h1 span{
+    font-weight: 300;
+}
+
+/*footer*/
+
+footer{
+    background-color: black;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+footer nav ul{
+    list-style: none;
+    display: flex;
+}
+
+footer nav ul li{
+    padding: 30px;
+}
+
+footer nav ul li a{
+    color: white;
+}
+
+footer article{
+    border-top: 2px solid white;
+    padding: 15px 0px;
+    max-width: 600px;
+    text-align: center;
+}
+
