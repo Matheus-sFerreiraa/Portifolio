@@ -78,9 +78,10 @@
         margin-top: 40px;
         text-align: center;
         
-        .how-text{
-            margin-bottom: 20px;
-        }
+    }
+
+    .how-works .interface .how-text{
+        margin-bottom: 20px;
     }
 
     
